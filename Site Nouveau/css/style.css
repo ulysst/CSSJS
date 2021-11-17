@@ -2,6 +2,21 @@ main{
   color: purple;
   background-color: purple;
 }
+
 .container{
-  
+  text-align: center;
+}
+h1 {
+   font-size: 90px;
+ }
+h2{
+  text-align: left;
+  font-size: 30px;
+}
+p{
+  text-align: left;
+  font-size: 20px
+}
+.flex-ulyss{
+
 }
