@@ -1,22 +1,118 @@
-main{
-  color: purple;
-  background-color: purple;
+body {
+  background-color: black;
+  color: white;
 }
 
-.container{
+.container {
   text-align: center;
 }
-h1 {
-   font-size: 90px;
- }
-h2{
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .pres {
+    height: 500px
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .pres {
+    height: 600px
+  }
+}
+
+@media screen and (max-width: 100px) {
+  .pres {
+    height: 1000px
+  }
+}
+
+h1, h2 {
+  font-family: 'Chalkduster', fantasy;
   text-align: left;
   font-size: 30px;
 }
-p{
-  text-align: left;
-  font-size: 20px
-}
-.flex-ulyss{
 
+p {
+  text-align: left;
+  font-size: 20px;
+}
+
+.row {
+  text-align: center;
+}
+
+.presentation {
+  text-align: left;
+}
+
+li {
+  font-size: 25px;
+}
+
+.pres {
+  height: 400px;
+  border-radius: 3rem;
+}
+
+.ulyss {
+  color: black;
+}
+
+.merry {
+  color: black;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 40px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: white;
+}
+
+/* Add a background color and some padding around the form */
+.container2 {
+  border-radius: 5px;
+  border-color: white;
+  background-color: #000000a6;
+  padding: 20px;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 3vh;
+}
+h4{
+  color: black;
 }
