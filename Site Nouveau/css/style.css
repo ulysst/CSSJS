@@ -2,7 +2,12 @@ body {
   background-color: black;
   color: white;
 }
-
+h3{
+  font-size: 70px;
+  font-family: Luminari, fantasy;
+  text-align: center;
+  margin-top: 200px;
+}
 .container {
   text-align: center;
 }
@@ -33,21 +38,29 @@ body {
 
 h1, h2 {
   font-family: 'Chalkduster', fantasy;
-  text-align: left;
+  text-align: center;
   font-size: 30px;
+  color: white;
+}
+h3{
+  font-size: 70px;
+  font-family: Luminari, fantasy;
+  text-align: center;
+  margin-top: 200px;
+}
+h4 {
+  color: black;
 }
 
 p {
   text-align: left;
   font-size: 20px;
-}
-
-.row {
-  text-align: center;
+  color: white;
 }
 
 .presentation {
-  text-align: left;
+  text-align: center;
+  color: black;
 }
 
 li {
@@ -113,6 +126,11 @@ input[type=submit]:hover {
   margin: 0 auto;
   margin-top: 3vh;
 }
-h4{
-  color: black;
+
+
+.nav-wrapper{
+  background-color: #fd1d1d;
+}
+.modal{
+  color: white;
 }

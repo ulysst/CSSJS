@@ -12,61 +12,67 @@
 </head>
 
 <body>
-  <div class="parallax-container">
-    <div class="parallax"><img src="img/code.jpg"></div>
-  </div>
-  <div class="container">
-    <div class="heading">
-      <h1>Portfolio d'Ulyss Trachet et de Mériadeg Durel.</h1>
-      <h2>Présentation du binôme:</h2>
-
-      <div class="row">
-        <div class="pres ulyss col s5 white">
-          <h2><span style="color: green">Ulyss Trachet</span></h2>
-          <p class="flow-text">
-            Date de naissance : 04 novembre 2001 (20ans) <br>
-            Prénom : Ulyss <br>
-            Nom complet : Bernard Françis Trachet <br>
-            Cursus scolaire : Détient un Bac ES spécialité Maths, Étudie maintenant au Gaming Campus de Lyon la programmation informatique. <br>
-          </p>
-        </div>
-        <div class="pres merry col s5 offset-s1 white">
-          <h2><span style="color: green">Mériadeg Durel</span></h2>
-          <p class="flow-text">
-            Date de Naissance : 26 mars 2001 (20ans) <br>
-            Prénom : Mériadeg <br>
-            Nom Complet : Durel <br>
-            Cursus Scolaire : Détient un Bac L spécialité anglais renforcé, Étudiant au Gaming Campus de Lyon <br>
-          </p>
-        </div>
-      </div>
-      <div class="presentation">
-        <h2>Présentation :</h2>
-        <p class="flow-text">Bienvenue sur notre site internet ! <br>
-          C'est ici que nous allons exposer nos projets auquels vous pourrez jeter un oeil, pour le moment nous allons en exposer 3:
-        <ul>
-          <li><span style="color: #ff0000">Premier Projet</span>: C'est plus, c'est moins (jeu) <span style="color: #2979ff">[Python]</span><br
-          </li>
-          <li><span style="color: #ff0000">Deuxième projet</span>: Puissance 4 (jeu) <span style="color: #2979ff">[C]</span><br>
-          </li>
-          <li><span style="color: #ff0000">Troisième projet</span>: Site Internet (Internet) <span style="color: #2979ff">[html]</span> <br>
-          </li>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo center">Logo</a>
+        <ul class="left hide-on-med-and-down">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li class="active"><a href="collapsible.html">JavaScript</a></li>
         </ul>
-        </p>
-        <p class="flow-text">
-          Nous sommes deux novices dans le monde du code, ayants commencé avec les cours dispensés par le Gaming Campus.
-        </p>
       </div>
+    </nav>
+  </div>
 
-      <div class="carousel">
-        <a class="carousel-item" href="#three!"><img src="img/html.jpg"></a>
-        <a class="carousel-item" href="#four!"><img src="img/python.png"></a>
-        <a class="carousel-item" href="#five!"><img src="img/C.jpg"></a>
-      </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/palmiers.jpg"></div>
+    <div class="heading">
+      <h3 style="text-decoration:underline;">Portfolio d'Ulyss Trachet et de Mériadeg Durel.</h3>
     </div>
   </div>
+  <div class="container">
+
+
+    <div class="presentation">
+      <h2>Présentation du binôme:</h2>
+      <div class="modal">
+
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h5>Modal Header</h5>
+            <p>A bunch of text</p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+          </div>
+        </div>
+      </div>
+      
+      <p class="flow-text">Bienvenue sur notre site internet ! <br>
+        C'est ici que nous allons exposer nos projets auquels vous pourrez jeter un oeil, pour le moment nous allons en exposer 3:
+      <div class="col">
+        <img src="img/projet1.png" alt="1" height="400px" width="auto">
+        <img src="img/projet2.png" alt="2" height="400px" width="auto">
+        <img src="img/projet3.png" alt="3" height="400px" width="auto">
+      </div>
+    </div>
+    <p class="flow-text">
+      Nous sommes deux novices dans le monde du code, ayants commencé avec les cours dispensés par le Gaming Campus.
+    </p>
+  </div>
+
+  <div class="carousel">
+    <a class="carousel-item" href="#three!"><img src="img/html.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="img/python.png"></a>
+    <a class="carousel-item" href="#five!"><img src="img/C.jpg"></a>
+  </div>
+
+  </div>
   <div class="parallax-container">
-    <div class="parallax"><img src="img/code.jpg"></div>
+    <div class="parallax"><img src="img/palmiers.jpg"></div>
     <div class="container2">
       <form action="action_page.php">
 
